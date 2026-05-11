@@ -7,7 +7,7 @@ Drop-in waitlist email collection for Vercel projects. Stores emails via Vercel 
 ### 1. Install
 
 ```bash
-npm install @jinhan/waitlist-collector
+npm install github:JinHanAI/waitlist-collector
 ```
 
 ### 2. Create API route
