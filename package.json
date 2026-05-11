@@ -1,0 +1,38 @@
+{
+  "name": "@jinhan/waitlist-collector",
+  "version": "1.0.0",
+  "description": "Drop-in waitlist email collection for Vercel projects. Stores emails via Vercel Blob, zero config database.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "keywords": [
+    "waitlist",
+    "email-collection",
+    "vercel",
+    "vercel-blob",
+    "serverless",
+    "landing-page",
+    "presale"
+  ],
+  "author": "JinHanAI",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinHanAI/waitlist-collector.git"
+  },
+  "homepage": "https://github.com/JinHanAI/waitlist-collector#readme",
+  "bugs": {
+    "url": "https://github.com/JinHanAI/waitlist-collector/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "@vercel/blob": ">=1.0.0"
+  },
+  "files": [
+    "src/"
+  ]
+}
